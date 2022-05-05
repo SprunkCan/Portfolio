@@ -1,0 +1,94 @@
+body{
+  font-family: "Verdana", sans-serif;
+  background-image: url("Pisces.jpg");
+  color: white;
+  margin: 0;
+}
+
+div{
+  display: flex;
+  align-items: center;
+}
+
+h1{
+  margin: 5em 5em 5em 5em;
+}
+
+h4{
+  padding-left: 1.25em;
+}
+
+
+.CenterTitle{
+  padding-top: 15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Banner{
+  padding: 0em 0em 0em 0.5em;
+  background-color: #282828;
+  color: white;
+  height: 3em;
+}
+
+.Link{
+  color: white;
+}
+
+.Menu{
+  /*Top, Right, Bottom, Left*/
+  font-family: "Verdana", sans-serif;
+  padding: 0.5em 1.0em 0.5em 1.0em;
+  margin-right: 0.5em;
+  background-color: #fcbf49;
+  color: #282828;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.Menu:hover{
+  background-color: #fcd381;
+  color: #282828;
+  cursor: pointer;
+}
+
+.WordleImg{
+  height: 15%;
+  width: 15%;
+  padding-left: 1.25em;
+}
+
+/* Link Colors: */
+a:link {
+  color: #1019c7;
+  background-color: transparent;
+}
+
+a:visited {
+  color: #5c10c7;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #1053c7;
+  background-color: transparent;
+}
+
+/*
+
+Ocean Palette:
+  #003049 - blue
+  #d62828 - red
+  #f77f00 - orange
+  #fcbf49 - yellow
+  #eae2b7 - tan
+
+  #0f12bf - lighter link blue
+  #0f1194 - darler link blue
+  #5e21b5 - link purple
+
+  #282828 - dark grey
+*/
