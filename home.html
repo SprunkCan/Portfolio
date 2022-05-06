@@ -1,10 +1,54 @@
 <html>
   <head>
     <title> Home - HTML Learning </title>
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="main.css">
     <!-- If you want Google font:
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Average"> 
     Replace "Average" at the end with any font name, modify the type in css file to math font-->
+    <style>
+      body{
+        font-family: "Verdana", sans-serif;
+        background-color: black;
+        color: white;
+        margin: 0;
+      }
+
+      div{
+        display: flex;
+        align-items: center;
+      }
+
+      div#Container{
+        margin-left: 1em;
+        position: relative;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 20px;
+        display: inline-block;
+      }
+
+      .centered{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        cursor: pointer;
+      }
+
+      .ImageLink{
+        height:50%; /*Changes W&H*/
+        transition: filter 0.5s;
+      }
+
+      .ImageLink:hover{
+        filter: blur(8px);
+        transition: filter 0.5s;
+      }
+
+    </style>
   </head>
 
   <div class="Banner"> 
@@ -13,16 +57,22 @@
   </div>
   
   <body>
-    <h4> Hello, this is my website. Here's some Wordle-like games:</h4>
+    <h4 style="margin-left: 1em;"> Hello, this is my website. Here's some fun games: </h4>
 
-    <h4> <a href="https://squareword.org/" target="_blank">Squareword</a> - 5x5 Wordle </h4>
-    <img src="res/Squareword.png" alt="Squareword" class="WordleImg">
-    <h4> <a href="https://www.quordle.com/#/" target="_blank">Quordle</a> - 4 Wordle's at a time </h4>
-    <img src="res/Quordle.png" alt="Quordle" class="WordleImg">
-    <h4> <a href="https://www.sedecordle.com/?mode=daily" target="_blank">Sedecordle</a> - 16 Wordle's at a time </h4>
-    <img src="res/Sedecordle.png" alt="Sedecordle" class="WordleImg">
-    <h4> <a href="https://vegeta897.github.io/wordle-peaks/" target="_blank">Wordle Peaks</a> - Wordle with information based off of alphabet occurance </h4>
-    <img src="res/WordlePeaks.png" alt="WordlePeaks" class="WordleImg">
+    <div id=Container>
+      <a href="https://robertsspaceindustries.com/" target="_blank">
+        <img src="res/OrbitalView.png" alt="OrbitalView" class="ImageLink">
+      </a>
+      <div class="centered"> Star Citizen </div>
+    </div>
 
   </body>
 </html>
+
+<!--
+  Links:
+    https://squareword.org/
+    https://www.quordle.com/#/
+    https://www.sedecordle.com/?mode=daily
+    https://vegeta897.github.io/wordle-peaks/
+-->
