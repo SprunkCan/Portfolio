@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title> Home - HTML Learning </title>
+    <title> Portfolio - Home </title>
     <link rel="stylesheet" href="style.css">
     <!-- If you want Google font:
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Average"> 
@@ -16,6 +16,22 @@
       div{
         display: flex;
         align-items: center;
+      }
+
+      .Menu{
+        font-family: "Verdana", sans-serif;
+        padding: 0.0em 0.5em 0.0em 0.5em;
+        margin-right: 0.5em;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+
+      .Menu:hover{
+        cursor: pointer;
       }
 
       .ImageContainer{
@@ -51,10 +67,12 @@
   </head>
 
   <div class="Banner"> 
-    <button type="button" class="Menu" onclick="window.location.href='home.html';"> HOME </button>
-    <button type="button" class="Menu" disabled> MORE SOON! </button>
+    <script src="themes.js"></script>
+    <button type="button" class="Menu" onclick=""> ≡ </button>
+    <button type="button" class="Banner-Button" onclick="window.location.href='home.html';"> HOME </button>
+    <button type="button" class="Banner-Button" disabled> MORE SOON! </button>
     <div id="LogoContainer">
-      <a href="https://github.com/SprunkCan/UntitledWebApplication" target="_blank">
+      <a href="https://github.com/SprunkCan/Portfolio" target="_blank">
         <img src="res/logo/GitHub-Mark-Light-64px.png" alt="GitHub" class="LogoLink">
       </a>
       <a href="https://discord.com/" target="_blank">
@@ -64,7 +82,9 @@
   </div>
   
   <body>
-    <h4 style="margin-left: 1.0em;"> Hello, this is my website. Here's some fun games: </h4>
+    <h4 style="margin-left: 1.0em;"> This is a WIP. 
+      Expect new changes and slightly different but excruciatingly similar bugs. 
+    </h4>
 
     <div class="ImageContainer" style="margin-left: 1em;">
       <a href="https://robertsspaceindustries.com/" target="_blank">

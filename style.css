@@ -1,29 +1,29 @@
 .Banner{
   /*Top, Right, Bottom, Left*/
   padding: 0.0em 0.0em 0.0em 1.0em;
-  background-color: #204E4A;
-  color: white;
+  background-color: var(--color-banner);
+  color: var(--color-font);
   height: 3em;
 }
 
-.Menu{
+.Banner-Button{
   font-family: "Verdana", sans-serif;
   padding: 0.5em 1.0em 0.5em 1.0em;
   margin-right: 0.5em;
-  background-color: #81C14B;
-  color: #204E4A;
+  background-color: var(--color-banner-button);
+  color: var(--color-banner);
   border: none;
   border-radius: 4px;
   font-weight: bold;
 }
 
-.Menu:hover{
-  background-color: #2E933C;
-  color: #204E4A;
+.Banner-Button:hover{
+  background-color: var(--color-banner-button-hover);
+  color: var(--color-banner);
   cursor: pointer;
 }
 
-.Menu:disabled, .Menu[disabled]{
+.Banner-Button:disabled, .Banner-Button[disabled]{
   background-color: #282828;
   cursor: not-allowed;
 }
@@ -40,6 +40,25 @@
   position: relative;
   width: 32px;
   height: 32px;
+}
+
+/* Experimental themes, subject to change */
+.theme-night{
+  --color-banner: #282828;
+  --color-banner-button: white;
+  --color-banner-button-hover: #787878;
+  /*--color-body: ;*/
+  --color-background: black;
+  --color-font: white;
+}
+
+.theme-forest{
+  --color-banner: #204E4A;
+  --color-banner-button: #81C14B;
+  --color-banner-button-hover: #2E933C;
+  /*--color-body: ;*/
+  --color-background: black;
+  --color-font: white;
 }
 
 /*
