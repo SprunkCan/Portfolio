@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title> Projects - HTML Learning </title>
+    <link rel="stylesheet" href="class.css">
+    <style>
+      body{
+        font-family: "Verdana", sans-serif;
+        background-color: black;
+        color: white;
+        margin: 0;
+      }
+
+      div{
+        display: flex;
+        align-items: center;
+      }
+
+      .ImageContainer{
+        position: relative;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 30px;
+        display: inline-block;
+      }
+
+      .cText{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        cursor: pointer;
+      }
+
+      .BlurLinkedImage{
+        height: 450; /*Changes W&H, but based off of W*/
+        transition: filter 0.5s;
+      }
+
+      .BlurLinkedImage:hover{
+        filter: blur(8px);
+        transition: filter 0.5s;
+      }
+
+    </style>
+  </head>
+
+  <div class="Banner"> 
+    <button type="button" class="Menu" onclick="window.location.href='home.html';"> HOME </button>
+    <button type="button" class="Menu" onclick="window.location.href='projects.html';"> PROJECTS </button>
+    <button type="button" class="Menu" disabled> MORE SOON! </button>
+    <div id="LogoContainer">
+      <a href="https://github.com/SprunkCan/UntitledWebApplication" target="_blank">
+        <img src="res/logo/GitHub-Mark-Light-64px.png" alt="GitHub" class="LogoLink">
+      </a>
+      <a href="https://discord.com/" target="_blank">
+        <img src="res/logo/Discord-Logo-White.svg" alt="Discord" class="LogoLink">
+      </a>
+    </div>
+  </div>
+  
+  <body>
+    <h4 style="margin-left: 1.0em;"> My main projects:  </h4>
+
+    <div class="ImageContainer" style="margin-left: 1em;">
+      <a href="https://robertsspaceindustries.com/">
+        <img src="res/OpenGL.png" alt="OpenGL_Image" class="BlurLinkedImage">
+      </a>
+      <div class="cText"> OpenGL </div>
+    </div>
+
+  </body>
+</html>
+
+<!--
+  
+-->
