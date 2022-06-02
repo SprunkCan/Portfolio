@@ -26,6 +26,11 @@
       display: inline-block;
     }
 
+    .ImageContainer:hover .BlurLinkedImage {
+      filter: blur(8px);
+      transition: filter 0.5s;
+    }
+
     .cText {
       position: absolute;
       top: 50%;
@@ -38,11 +43,6 @@
     .BlurLinkedImage {
       height: 50vh;
       /*Changes W&H, but based off of W*/
-      transition: filter 0.5s;
-    }
-
-    .BlurLinkedImage:hover {
-      filter: blur(8px);
       transition: filter 0.5s;
     }
   </style>
