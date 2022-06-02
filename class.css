@@ -1,7 +1,7 @@
 .Banner{
   /*Top, Right, Bottom, Left*/
   padding: 0.0em 0.0em 0.0em 1.0em;
-  background-color: #204E4A;
+  background-color: #2d417a;
   color: white;
   height: 5vh;
 }
@@ -10,16 +10,15 @@
   font-family: "Verdana", sans-serif;
   padding: 0.5em 1.0em 0.5em 1.0em;
   margin-right: 0.5em;
-  background-color: #81C14B;
-  color: #204E4A;
+  background-color: #282828;
+  color: #ecba82;
   border: none;
   border-radius: 4px;
   font-weight: bold;
 }
 
 .Menu:hover{
-  background-color: #2E933C;
-  color: #204E4A;
+  background-color: #4b4b61;
   cursor: pointer;
 }
 
@@ -44,12 +43,10 @@
 
 /*
 ---------- Palettes ----------
-Forest:
-  #204E4A - deep jungle green
-  #297045 - dark spring green
-  #2E933C - may green
-  #81C14B - mantis
-  #ECBA82 - gold crayola
+Default:
+  #2d417a - background
+  #282828 - button background
+  #ecba82 - font
 
 ---------- Other ----------
 Links:
