@@ -2,7 +2,6 @@ a {
   color: #426cf5;
   transition: opacity 0.1s;
 } a:hover {
-  opacity: 75%;
   transition: opacity 0.1s;
 }
 
@@ -12,6 +11,7 @@ a {
   background-color: #2d417a;
   color: white;
   height: 5vh;
+  align-items: center;
   display:flex;
   position:fixed;
   left:0;
@@ -62,20 +62,3 @@ a {
   opacity: 50%;
   transition: opacity 0.1s;
 }
-
-/*
----------- Palettes ----------
-Default:
-  #2d417a - background
-  #282828 - button background
-  #ecba82 - font
-
----------- Other ----------
-Links:
-  #0f12bf - lighter link blue
-  #0f1194 - darler link blue
-  #5e21b5 - link purple
-
-JIC:
-  #282828 - dark grey
-*/
