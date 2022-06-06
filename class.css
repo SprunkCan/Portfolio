@@ -1,7 +1,9 @@
 a {
   color: #426cf5;
+  opacity: 100%;
   transition: opacity 0.1s;
 } a:hover {
+  opacity: 50%;
   transition: opacity 0.1s;
 }
 
