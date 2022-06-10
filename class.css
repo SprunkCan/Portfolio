@@ -7,16 +7,19 @@ a {
   transition: opacity 0.1s;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .Banner{
   /*Top, Right, Bottom, Left*/
-  padding: 0.0em 0.0em 0.0em 1.0em;
   background-color: #2d417a;
   color: white;
   height: 5vh;
   width: 100%;
   align-items: center;
   display:flex;
-  position:fixed;
   left:0;
   right:0;
 }
@@ -48,8 +51,7 @@ a {
 
 #LogoContainer{
   position: absolute;
-  right: 0;
-  margin-right: 2.0em;
+  right: 1em;
 }
 
 .LogoLink{
