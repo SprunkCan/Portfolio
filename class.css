@@ -12,6 +12,13 @@ p {
     padding: 0;
 }
 
+body {
+    font-family: "Verdana", sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
 .Banner{
   /*Top, Right, Bottom, Left*/
   background-color: #2d417a;
